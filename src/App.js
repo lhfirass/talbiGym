@@ -1,5 +1,14 @@
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import { useState } from 'react';
+import Header from './Header';
+import Hero from './Hero';
+import About from './About';
+import Who from './Who';
+import Testemonial from './Testemonial';
+import Buy from './About';
+import Contact from './Contact';
+import Footer from './Footer';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const [aBackgroundColor, setBackgroundColor] = useState('#222222');
@@ -8,7 +17,9 @@ function App() {
   };
   return (
       <div className="App">
-        <p>hello world</p>
+        <Header />
+        <Hero />
+        <About />
       </div>
   );
 }

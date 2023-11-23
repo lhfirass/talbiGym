@@ -1,9 +1,9 @@
 :root {
-  --primary-color: #BE1E2D;
-  --secondary-color: #F7941D;
-  --accent-color: #464747;
-  --success-color: #04683A;
-  --info-color: #0F76BB;
+  --primary-color: #A62934;
+  --secondary-color: #1C1F26;
+  --accent-color: #07748C;
+  --success-color: #F2DFCE;
+  --info-color: #D92B2B;
 }
 body {
   margin: 0;
@@ -40,3 +40,80 @@ a {
   font-size: 18px;
   color: #222;
 }
+
+/*Xbootstrap*/
+.font-weight-bold {
+  font-weight: bold;
+}
+.t-w {
+  color: var(--success-color);
+}
+.bg-black {
+  background-color: #000;
+}
+/*Xend*/
+
+.Xlogo {
+  margin: 4px;
+  width: 40px;
+  border-radius: 100%;
+}
+.XbgStyle {
+  background-color: #000;
+  height: 60px;
+}
+.Xcontainer {
+  background-image: url(../public/pictures/heroImg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.Xhero {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Xtitle {
+  font-weight: bold;
+}
+.XsubTit {
+  width: 36vw;
+  text-shadow: 0 0 0.5em rgba(255, 255, 255, 0.468);
+}
+.Xaction {
+  
+}
+.Xbtn1 {
+  margin: 4px;
+  padding: 6px 12px;
+  font-weight: bold;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid var(--success-color);
+}
+.Xbtn2 {
+  margin: 4px;
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+}
+.Xsection {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 40px 0;
+}
+.Xbtn {
+  margin: 4px;
+  padding: 6px 12px;
+  font-weight: bold;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid var(--success-color);
+}
+.aboutText {
+  text-align: center;
+  font-size: 14px;
+  width: 60%;
+}
+
